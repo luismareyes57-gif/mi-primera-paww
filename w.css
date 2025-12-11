@@ -1,0 +1,101 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Encabezados */
+h1 {
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #3949ab;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+/* Párrafos */
+p {
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Imagen */
+img {
+  width: 180px;       /* Tamaño moderado */
+  border-radius: 8px; /* Bordes suaves */
+  margin: 10px 0;
+  display: block;
+}
+
+/* Listas */
+ul, ol {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: fit-content;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Tabla */
+table {
+  margin-top: 20px;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #666;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #dbeaff;
+}
+
+/* Formulario */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #3949ab;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #1a237e;
+}
+
